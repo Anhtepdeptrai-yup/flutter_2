@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class SettingPage extends StatelessWidget {
-  const SettingPage({Key? key});
+class ProfilePage extends StatelessWidget {
+  const ProfilePage({Key? key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("Settings"),
+        child: Text("Profile"),
       )
     );
   }
